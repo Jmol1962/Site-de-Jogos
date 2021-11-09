@@ -1,0 +1,461 @@
+/****************************************************/
+/*************  header  ***************/
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{
+    width: 1440px;
+    height: 80px;
+}
+
+.logo
+{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+ul
+{
+    display: inline;
+    margin-left: 550px;
+    margin-top: 30px;
+    position: absolute;
+    width: 590px;
+    height: 23px;
+    align-items: center;
+}
+
+a
+{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+}
+
+.btn-login
+{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: 1240px;
+    top: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+    background-color: #45df70;
+    border-color: #45df70;
+    border-radius: 5px;
+
+
+}
+
+/****************************************************/
+/*************  banner  ***************/
+
+.banner
+{
+    position: absolute;
+    width: 1440px;
+    height: 500px;
+    left: 2px;
+    top: 80px;
+    background-color: #9be9b1;
+}
+
+.figure
+{
+    width: 400px;
+    height: 350px;
+    left: 150px;
+    top: 155px;
+}
+
+.banner figure img
+{
+    margin-top: 50px;
+}
+
+.texto_banner
+{
+    position: absolute;
+    width: 640px;
+    height: 113px;
+    left: 720px;
+    top: 100px;
+    text-align:justify;
+}
+
+.texto_banner h1
+{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;    
+}
+
+.texto_banner p
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 30px;
+    font-style: normal;
+}
+
+.texto_banner a
+{
+    font-style: italic;
+}
+
+/****************************************************/
+/*************  destaque  ***************/
+
+.destaque
+{
+    position: absolute;
+    width: 1440px;
+    height: 561px;
+    left: 0px;
+    top: 580px;
+    /*border: 1px solid red;*/
+}
+
+.img_destaque
+{
+    float: left;
+    width: 230px;
+    top: 500px;
+    left: 30px;
+    padding: 20px;
+}
+
+.img_destaque figure img
+{
+    margin: 150px 0px 0px 0px;
+    width: 150px;
+    height: 170px;
+}
+
+figcaption
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-size-adjust: 24px;
+    font-style: normal;
+    color: black;
+    margin-left: 12px;
+}
+
+.text_destaque
+{
+    position: absolute;
+    width: 500px;
+    height: 106px;
+    left: 235px;
+}
+
+.texto_destaque h1
+{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.texto_destaque p
+{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-size-adjust: 24px;
+    font-style: normal;
+}
+figcaption 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-size-adjust: 24px;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+
+/***************************************/
+/********        NOVIDADES    **********/
+
+.novidades
+{
+    position: absolute;
+    width: 1440px;
+    height: 430px; 
+    margin-top: 1060px;
+    background-color: rgb(0, 47, 255);
+}
+
+.novidades img
+{    
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 1000px;
+    top: 65px;
+}
+
+.texto_novidades
+{
+    position: absolute;
+    width: 571px;
+    height: 282px;
+    left: 100px;
+    top: 135px;
+}
+
+.texto_novidades h1
+{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-size-adjust: 30px;
+}
+
+.texto_novidades p 
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.texto_novidades a 
+{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/***************************************/
+/********        FOOTER       **********/
+.rodape
+{
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    border: 1px solid red; 
+    margin-top: 1490px;   
+}
+
+.info_contato
+{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 600px;
+    top: 80px;
+}
+
+.info_contato p
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: black;
+}
+
+.logo_rodape img
+{
+    margin: 0px 0px 0px 0px;
+    width: 200px;
+    height: auto;
+    padding-top: 150px;
+    display: inline;
+}
+
+.redes_sociais figure
+{
+    
+    position: absolute;
+    padding-top: 0px;
+    width: 650px;
+    height: 200px;
+    left: 850px;
+    top: 0px;
+    border: 1px solid red;
+}
+
+.img1
+{
+
+    margin-top: 0px; 
+    padding-top: 50px;
+    width: 80px;
+    height: 80px;   
+}
+
+.img2
+{
+    margin-top: 0px;
+    width: 80px;
+    height: 80px;    
+}
+
+.img3
+{
+    margin-top: 0px;
+    width: 80px;
+    height: 80px;    
+}
+
+.img4
+{
+    margin-top: 0px;
+    width: 80px;
+    height: 80px;    
+}
+
+.menu_rodape
+{
+    border: 1px solid red;
+    position: absolute;
+    width: 120px;
+    height: 145px;
+    left: 885px;
+    top: 230px;    
+}
+li
+{
+    list-style-type: none;
+    line-height: 1.5;
+    font-style:normal;
+}
+
+/*****************************************
+/*****************hardware - tabela*******/
+
+.area-hardware
+{
+    width: 1440px;
+    height: 80px;    
+    margin-top: 15px;    
+}
+
+th
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: darkgray;
+}
+
+.descricao-produto
+{
+    width: 300px;
+    height: 80px;
+    text-align: center;    
+}
+
+.produto
+{
+    width: 300px;
+    height: 80px;
+    text-align: center;    
+}
+
+.preco
+{
+    width: 300px;
+    height: 80px;
+    text-align: center;    
+}
+
+.compra
+{
+    width: 300px;
+    height: 80px;
+    text-align: center;    
+}
+
+.descricao
+{
+    width: 300px;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;    
+}
+
+.img-produto
+{
+    width: 300px;
+    height: auto;    
+}
+
+.img-produto img
+{
+    width: 250px;
+    height: auto;
+    margin-left: 60px;    
+}
+
+
+.valor-produto
+{
+    width: 300px;
+    height: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.compra-produto
+{
+    width: 300px;
+    height: auto;
+    
+}
+
+.btn-comprar
+{
+    background-color: #45df70;
+    border: none;
+    color: rgb(15, 1, 1);
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: #45df70;
+    margin-left: 100px;
+}
+
+th,td
+{
+    border: 1px solid black;
+}
+
+.rodape-hardware
+{
+    position: absolute;
+    width: 1440px;
+    height: 400px;
+    border: 1px solid red; 
+    margin-top: 455px;   
+}
+    
